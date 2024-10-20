@@ -1,3 +1,8 @@
+*{
+    box-sizing: border-box;
+}
+
+
 body{background-color:#FCEBB6;
     background-image: url(images/fadedroad50.jpg);
     background-repeat: no-repeat;
@@ -8,21 +13,40 @@ body{background-color:#FCEBB6;
 }
 
 #wrapper{
-    background-color: #FEFAEB;
+    background-color: #231814;
     margin-left: auto;
     margin-right: auto;
     width: 80%;
     min-width: 900px;
     max-width: 1280px;
     box-shadow: 3px 3px 3px grey;
+    padding: 0;
 }
 
-header{color: #8C3826; 
+header{color: #231814; 
     background-color:#D2B48C; 
+    background-image: url(images/coffeelogo.jpg);
     text-align: center;
     font-family: "Sofadi One", system-ui;
+    padding-left: 240px;
     padding-top: 5px;
     padding-bottom: 5px;
+}
+
+header a{
+    text-decoration: none;
+}
+
+header a:link{
+    color: #231814;
+}
+
+header a:visited{
+    color: #231814;
+}
+
+header a:hover{
+    color: #FEF6C2;
 }
 
 h1{
@@ -43,29 +67,71 @@ h4{
     font-size: 1.2em;
     padding-left: .5em;
     padding-bottom: .25em;
+    text-transform: uppercase;
+    border-bottom: 1px solid #231814;
+    clear: left;
 }
 
-nav{text-align: center; 
+nav{
+    float: left;
+    text-align: center; 
     font-weight: bold;
     font-size: 1.5em;
     padding-top: 5px;
     padding-bottom: 5px;
+    width: 200px;
 }
 
-nav a {
+nav a{
     text-decoration: none;
 }
 
+nav a:link{
+    color: #FEF6C2;
+}
+
+nav a:visited{
+    color: #D2B48C;
+}
+
+nav a:hover{
+    color: #CC9933;
+}
+
+nav ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+
 main{
+    background-color: #FEF6C2;
     display: block;
-    padding-left: 2em;
+    margin-left: 200px;
+    overflow: auto;
+    padding: 0 0 2em 0;
+}
+
+main h2, h3, h4, p, div, ul, dl{
+    padding-left: 3em;
     padding-right: 2em;
-    padding-bottom: 2em;
+
 }
 
 .details{
     padding-left: 20%;
     padding-right: 20%;
+    overflow: auto;
+}
+
+.floatleft{
+    float: left;
+    padding-right: 2em;
+    padding-bottom: 2em;
+}
+
+.onethird{
+    float: left;
+    width: 33%;
 }
 
 img{
@@ -78,7 +144,21 @@ img{
     height: 300px;
     background-image: url(images/hero.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
+}
+
+#heromugs{
+    height: 300px;
+    background-image: url(images/heromugs.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#heroguitar{
+    height: 300px;
+    background-image: url(images/heroguitar.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 footer{background-color: #D2B48C; 
