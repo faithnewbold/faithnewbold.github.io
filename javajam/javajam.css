@@ -26,6 +26,7 @@ body{background-color:#FCEBB6;
 header{color: #231814; 
     background-color:#D2B48C; 
     background-image: url(images/coffeelogo.jpg);
+    background-repeat: no-repeat;
     text-align: center;
     font-family: "Sofadi One", system-ui;
     padding-left: 240px;
