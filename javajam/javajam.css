@@ -186,7 +186,7 @@ td, th{
 }
 
 tr:nth-of-type(odd) {
-	color: #D2B48E
+	background-color: #D2B48E
 }
 
 /* Configure Medium Layout */
